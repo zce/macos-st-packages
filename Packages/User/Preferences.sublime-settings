@@ -1,0 +1,9 @@
+{
+	"color_scheme": "Packages/zce/themes/simple/simple.tmTheme",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "simple.sublime-theme"
+}

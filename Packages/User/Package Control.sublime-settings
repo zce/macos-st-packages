@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"AutoFileName",
+		"Babel",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"GitGutter",
+		"Handlebars",
+		"LESS",
+		"Material Theme",
+		"Material Theme - Appbar",
+		"Material Theme - White Panels",
+		"SideBarEnhancements",
+		"Terminal",
+		"Vue Syntax Highlight",
+		"Xtemplate"
+	]
+}
