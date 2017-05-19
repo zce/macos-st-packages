@@ -26,7 +26,7 @@ def get_setting(key, default=None):
     os_specific_settings = {}
     if os.name == 'nt':
         os_specific_settings = sublime.load_settings('Terminal (Windows).sublime-settings')
-    elif os.name == 'darwin':
+    elif sys.platform == 'darwin':
         os_specific_settings = sublime.load_settings('Terminal (OSX).sublime-settings')
     else:
         os_specific_settings = sublime.load_settings('Terminal (Linux).sublime-settings')
@@ -82,7 +82,7 @@ class TerminalSelector():
                 buf = create_unicode_buffer(512)
                 if windll.kernel32.GetShortPathNameW(sublime_terminal_path, buf, len(buf)):
                     sublime_terminal_path = buf.value
-                os.putenv('sublime_terminal_path', sublime_terminal_path.replace(' ', '` '))
+                os.environ['sublime_terminal_path'] = sublime_terminal_path.replace(' ', '` ')
             else :
                 default = os.environ['SYSTEMROOT'] + '\\System32\\cmd.exe'
 
@@ -136,12 +136,34 @@ class TerminalCommand():
                 parameters[k] = v.replace('%CWD%', dir_)
             args = [TerminalSelector.get()]
             args.extend(parameters)
+
             encoding = locale.getpreferredencoding(do_setlocale=True)
             if sys.version_info >= (3,):
                 cwd = dir_
             else:
                 cwd = dir_.encode(encoding)
-            subprocess.Popen(args, cwd=cwd)
+
+            # Copy over environment settings onto parent environment
+            env_setting = get_setting('env', {})
+            env = os.environ.copy()
+            for k in env_setting:
+                if env_setting[k] is None:
+                    env.pop(k, None)
+                else:
+                    env[k] = env_setting[k]
+
+            # Normalize environment settings for ST2
+            # https://github.com/wbond/sublime_terminal/issues/154
+            # http://stackoverflow.com/a/4987414
+            for k in env:
+                if not isinstance(env[k], str):
+                    if isinstance(env[k], unicode):
+                        env[k] = env[k].encode('utf8')
+                    else:
+                        print('Unsupported environment variable type. Expected "str" or "unicode"', env[k])
+
+            # Run our process
+            subprocess.Popen(args, cwd=cwd, env=env)
 
         except (OSError) as exception:
             print(str(exception))
