@@ -6,8 +6,10 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"AdvancedNewFile",
 		"Emmet",
 		"Package Control",
-		"SideBarEnhancements"
+		"SideBarEnhancements",
+		"Terminal"
 	]
 }
