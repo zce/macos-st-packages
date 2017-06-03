@@ -1,4 +1,5 @@
 Backup/
 Cache/
 Index/
+*.cache
 *.sublime_session
