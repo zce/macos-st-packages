@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"A File Icon",
-		"Emmet"
+		"Emmet",
+		"Package Control"
 	]
 }
