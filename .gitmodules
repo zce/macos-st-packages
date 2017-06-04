@@ -1,0 +1,3 @@
+[submodule "Packages/zce"]
+	path = Packages/zce
+	url = https://github.com/zce/st-plugin.git
