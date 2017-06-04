@@ -9,7 +9,7 @@
 - [DocBlockr](https://packagecontrol.io/packages/DocBlockr)
 - [Emmet](https://packagecontrol.io/packages/Emmet)
 - [GitGutter](https://packagecontrol.io/packages/GitGutter)
-- [MarkdownEditing](https://packagecontrol.io/packages/MarkdownEditing)
+- ~~[MarkdownEditing](https://packagecontrol.io/packages/MarkdownEditing)~~
 - [Package Control](https://packagecontrol.io/packages/Package Control)
 - [Pug](https://packagecontrol.io/packages/Pug)
 - [Sass](https://packagecontrol.io/packages/Sass)
