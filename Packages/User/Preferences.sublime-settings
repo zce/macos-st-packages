@@ -11,7 +11,7 @@
 		"no_round"
 	],
 	"font_size": 14,
-	"highlight_line": true,
+	// "highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -34,7 +34,7 @@
 	"show_full_path": false,
 	"show_tab_close_buttons": true,
 	"tab_size": 2,
-	"theme": "Adaptive.sublime-theme",
+	"theme": "zce.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
