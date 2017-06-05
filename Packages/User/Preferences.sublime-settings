@@ -1,17 +1,22 @@
 {
+	"always_show_minimap_viewport": true,
+	"adaptive_dividers": false,
+	"bold_folder_labels": true,
 	"caret_extra_bottom": 1,
 	"caret_extra_top": 1,
 	"caret_extra_width": 1,
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
-	"font_face": "Source Code Pro",
+	"font_face": "Fira Code",
 	"font_options":
 	[
 		"no_bold",
+		"no_italic",
+		"gray_antialias",
+		"subpixel_antialias",
 		"no_round"
 	],
 	"font_size": 14,
-	// "highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -19,11 +24,13 @@
 	],
 	"indent_guide_options":
 	[
+		"draw_normal",
 		"draw_active"
 	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
 	"margin": 4,
+	"overlay_scroll_bars": "system",
 	"rulers":
 	[
 		80,
@@ -31,7 +38,9 @@
 		120
 	],
 	"scroll_past_end": true,
+	"show_encoding": true,
 	"show_full_path": false,
+	"show_line_endings": true,
 	"show_tab_close_buttons": true,
 	"tab_size": 2,
 	"theme": "zce.sublime-theme",

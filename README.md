@@ -1,5 +1,9 @@
 # macOS Sublime Text Packages
 
+## Guide
+
+- [OS X Command Line](https://www.sublimetext.com/docs/3/osx_command_line.html)
+
 ## Features
 
 - [A File Icon](https://packagecontrol.io/packages/A File Icon)
