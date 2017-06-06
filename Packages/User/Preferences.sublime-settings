@@ -1,13 +1,14 @@
 {
-	"always_show_minimap_viewport": true,
 	"adaptive_dividers": false,
+	"always_show_minimap_viewport": true,
+	"auto_complete": false,
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 1,
 	"caret_extra_top": 1,
 	"caret_extra_width": 1,
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
-	"font_face": "Fira Code",
+	"font_face": "Source Code Pro",
 	"font_options":
 	[
 		"no_bold",
