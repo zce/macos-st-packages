@@ -1,0 +1,11 @@
+// These settings override both User and Default settings for the Markdown syntax
+{
+  "draw_centered": true,
+  "word_wrap": true,
+  "wrap_width": 120,
+  "rulers": [],
+  "line_numbers": false,
+  "highlight_line": false,
+  "line_padding_top": 8,
+  "line_padding_bottom": 8,
+}

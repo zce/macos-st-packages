@@ -1,12 +1,11 @@
 {
 	"adaptive_dividers": false,
 	"always_show_minimap_viewport": true,
-	"auto_complete": false,
+	"auto_complete": true,
 	"bold_folder_labels": false,
 	"caret_extra_bottom": 1,
 	"caret_extra_top": 1,
 	"caret_extra_width": 1,
-	"close_windows_when_empty": true,
 	"color_scheme": "Packages/Color Scheme - Default/Sixteen.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Source Code Pro",
