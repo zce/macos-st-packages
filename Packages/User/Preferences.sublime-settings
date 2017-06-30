@@ -2,21 +2,23 @@
 	"adaptive_dividers": false,
 	"always_show_minimap_viewport": true,
 	"auto_complete": true,
-	"bold_folder_labels": false,
+	"bold_folder_labels": true,
 	"caret_extra_bottom": 1,
 	"caret_extra_top": 1,
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/Color Scheme - Default/Sixteen.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Source Code Pro",
 	"font_options":
 	[
 		"no_bold",
 		"no_italic",
+		"gray_antialias",
 		"subpixel_antialias",
 		"no_round"
 	],
 	"font_size": 14,
+	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -30,6 +32,7 @@
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
 	"margin": 4,
+	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "system",
 	"rulers":
 	[

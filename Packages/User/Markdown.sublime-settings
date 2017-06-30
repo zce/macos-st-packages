@@ -1,11 +1,12 @@
 // These settings override both User and Default settings for the Markdown syntax
 {
+  "color_scheme": "Packages/zce/schemes/Mariana (Markdown).tmTheme",
   "draw_centered": true,
   "word_wrap": true,
-  "wrap_width": 120,
+  "wrap_width": 110,
   "rulers": [],
   "line_numbers": false,
-  "highlight_line": false,
+  "gutter": false,
   "line_padding_top": 8,
-  "line_padding_bottom": 8,
+  "line_padding_bottom": 8
 }
